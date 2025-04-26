@@ -17,13 +17,9 @@ from model import SentimentTransformer
 SPLIT_DIR     = "imdb_splits_90_10"
 MODEL_NAME    = "distilbert-base-uncased"
 BATCH_SIZE    = 16
-MAX_LENGTH    = 128
-# -EMBED_DIM     = 128
-# -FF_DIM        = 256
-# -NUM_LAYERS    = 2
-# -DROPOUT       = 0.1
-EMBED_DIM     = 64
-FF_DIM        = 128
+MAX_LENGTH    = 256
+EMBED_DIM     = 16
+FF_DIM        = 32
 NUM_LAYERS    = 2
 DROPOUT       = 0.3
 NUM_EPOCHS    = 5
